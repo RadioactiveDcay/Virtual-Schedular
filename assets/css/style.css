@@ -1,6 +1,6 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
   line-height: 1;
 }
 
@@ -70,3 +70,19 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
+.deleteBtn {
+  box-sizing: 25px 10px;
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: red;
+}
+
+.editableList {
+  box-sizing: 75px 55px;
+  border-left: solid;
+  border-top: white;
+  border-bottom-right-radius: 252em;
+  background-color: 12px;
+}

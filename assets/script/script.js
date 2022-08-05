@@ -33,5 +33,7 @@ function delete_data (delInput) {
     let input = addEventListener.remove.input;
     itemInput.type = 'text';
     itemInput.value = item;
-    itemInput.classList.delete_data
+    itemInput.classList.delete_data('keypress', delItem);
+    itemInput.addEventListener('click', saveItem);
+    edit.target.parentNode.prepend(itemInput);
 }
